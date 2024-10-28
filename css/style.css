@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-image: url(../img/fondo-clima.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whether-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: .15rem solid #eee;
+  padding: 3%;
+  border-radius: .8rem;
+  backdrop-filter: blur(.14rem);
+}
+
+.whether-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+h1 {
+  margin: 0 0 2% 0;
+}
+
+button {
+  padding: .25rem 2rem;
+  background-color: #42A5F5;
+  border: .15rem solid #42A5F5;
+  border-radius: .5rem;
+  transition: all .3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #103758ee;
+  border: .15rem solid #103758ee;
+  color: #eee;
+}
